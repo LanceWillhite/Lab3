@@ -15,6 +15,6 @@ public class DataRecord {
 
     @Override
     public String toString() {
-        return category + ", " + name + ", " + value;
+        return category + " - " + name + " ($" + value + ")";
     }
 }
